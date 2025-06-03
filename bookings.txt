@@ -1,0 +1,3 @@
+{"name":"Kacper","room":"premium","checkin":"2025-06-15","checkout":"2025-06-18"}
+{"name":"Kapcer2","room":"king","checkin":"2025-05-28","checkout":"2025-06-18"}
+{"name":"Kacper","room":"standard","checkin":"2025-06-15","checkout":"2025-06-18"}

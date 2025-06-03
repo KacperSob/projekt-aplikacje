@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mili Hotels</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container1">
+      <h1>Mili Hotels</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#links">Linki</a></li>
+          <li><a href="#booking">Rezerwacja</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Pokój Premium.</h2>
+        <p>Zapewniamy klientom najwyższy poziom komfortu i bardzo przystępne ceny.</p>
+      </div>
+    </section>
+   <section id="links">
+    <div class="container">
+      <h2>Linki</h2>
+      <div id="home-but">
+        <a href="index.html">Strona Główna</a>
+        </div>
+      <ul>
+        <li>
+          <img src="./media/r1.jpg" alt="Pokój Standardowy">
+          <a href="ps.html">Pokój Standardowy</a>
+        </li>
+        <li>
+          <img src="./media/r2.jpg" alt="Pokój Premium">
+          <a href="pp.html">Pokój Premium</a>
+        </li>
+        <li>
+          <img src="./media/r3.jpg" alt="King Suite">
+          <a href="ks.html">King Suite</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="booking">
+  <div class="container">
+    <h2>Rezerwacja</h2>
+    <form id="bookingForm" method="POST" action="/book">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <select name="room" required>
+        <option value="">Wybierz Pokój</option>
+        <option value="standard">Standardowy</option>
+        <option value="premium">Premium</option>
+        <option value="king">King Suite</option>
+      </select>
+      <input type="date" name="checkin" required />
+      <input type="date" name="checkout" required />
+      <button type="submit">Zarezerwuj</button>
+    </form>
+  </div>
+</section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <address>
+          <p>Via Senigallia, 6, 20161 Milano MI</p>
+          <p>Telefon: 123 456 789</p>
+          <p>Email: support@milihotels.com</p>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kacper Sobania</p>
+    </div>
+  </footer>
+</body>
+</html>
